@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Login from './paginas/Login'
-import './index.css'
+import './index.css';
+import {BrowserRouter} from 'react-router-dom';
+import MainRoutes from './routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Login />
+    <BrowserRouter>
+    <MainRoutes />
+    </BrowserRouter>
   </React.StrictMode>,
 )
