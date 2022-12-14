@@ -1,0 +1,10 @@
+input, select {
+    background-color: #FFFFFF;
+    border: 0.1rem solid #555555;
+    border-radius: 0.5rem;
+    height: 5.8rem;
+    padding: 0 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+  }
