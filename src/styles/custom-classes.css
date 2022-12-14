@@ -1,0 +1,19 @@
+.logo{
+    height: 4rem;
+    position: absolute;
+    left: 5rem;
+    top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 4rem;
+}
+
+.logo h1{
+    color: white;
+    padding: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+}

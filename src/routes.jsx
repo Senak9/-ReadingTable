@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import Login from './paginas/Login';
+import Main from './paginas/Main';
+
+
 function MainRoutes(){
     return (
         <Routes>
-            <Route path='/' element={<Login/>} />
+            <Route path='/' element={<Main/>} />
         </Routes>    
         )
 }
