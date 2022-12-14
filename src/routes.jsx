@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Main from './paginas/Main';
 import LoginModal from './componentes/LoginModal';
+import CadastrarModal from './componentes/CadastrarModal';
 
 
 function MainRoutes(){
@@ -8,6 +9,7 @@ function MainRoutes(){
         <Routes>
             <Route path='/' element={<Main/>} />
             <Route path='/login' element={<LoginModal/>} />
+            <Route path='/cadastrar' element={<CadastrarModal/>} />
         </Routes>    
         )
 }
