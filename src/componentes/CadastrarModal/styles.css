@@ -1,61 +1,59 @@
 .container-cadastrar {
-    background: rgba(61, 61, 61, 0.48);
-    width: 100vw;
-    min-height: 100vh;
-    padding: 11rem 0;
-  
-    position: absolute;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: rgba(61, 61, 61, 0.48);
+  width: 100vw;
+  min-height: 100vh;
+  padding: 11rem 0;
 
-    font-family: 'Rubik', sans-serif;
-  }
-  
-.content-cadastrar{
-    display: flex;
-    align-items: center;
-    padding: 0 5rem;
-    
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Rubik", sans-serif;
 }
 
+.content-cadastrar {
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
+}
 
-.content-cadastrar form{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4rem 2.4rem;
-    min-height: 42rem;
-    width: 40rem;
-  }
+.content-cadastrar form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2.4rem;
+  min-height: 42rem;
+  width: 40rem;
+}
 
-  .content-cadastrar h2 {
-    color: #2C0F69;
-    font-size: 2.5rem;
-    font-weight: 500;
-  }
-  
-  .content-cadastrar form button {
-    margin-top: 5.2rem;
-  }
-  
-  .content-cadastrar form a {
-    font-size: 1.2rem;
-    margin-top: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-  }
+.content-cadastrar h2 {
+  color: #2c0f69;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
 
-  .header-cadastrar{
-    display: flex;
-    position: absolute;
-  }
+.content-cadastrar form button {
+  margin-top: 5.2rem;
+}
 
-  .header-cadastrar img{
-   position: relative;
-   left: 10.5rem;
-   bottom: 2rem;
-  }
+.content-cadastrar form a {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.header-cadastrar {
+  display: flex;
+  position: absolute;
+}
+
+.header-cadastrar img {
+  position: relative;
+  left: 10.5rem;
+  bottom: 2rem;
+}
