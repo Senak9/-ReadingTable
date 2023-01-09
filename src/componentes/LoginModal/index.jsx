@@ -6,7 +6,7 @@ function LoginModal() {
   const navigate = useNavigate();
 
   function handleSubmit(e) {
-    e.preventDefult();
+    e.preventDefault();
 
     navigate("/home");
   }
