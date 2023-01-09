@@ -1,8 +1,7 @@
 .container-cadastrar {
     background: rgba(61, 61, 61, 0.48);
     width: 100vw;
-    min-height: 100vh;
-    padding: 11rem 0;
+    height: 100vh;
   
     position: absolute;
   
@@ -17,6 +16,7 @@
     display: flex;
     align-items: center;
     padding: 0 5rem;
+
     
 }
 
