@@ -1,39 +1,29 @@
-.logo{
-    height: 4rem;
-    position: absolute;
-    left: 5rem;
-    top: 4rem;
-    display: flex;
-    align-items: center;
-}
-
 .logo img {
-    height: 4rem;
+  height: 4rem;
 }
 
-.logo h1{
-    color: white;
-    padding: 1rem;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2.5rem;
+.logo h1 {
+  color: white;
+  padding: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5rem;
 }
-
 
 .container-inputs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2.4rem;
-  }
-  
-  .container-inputs label {
-    color: #484848;
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 0.8rem;
-  }
-  
-  .width-limit {
-    width: 100%;
-    max-width: 150rem;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+}
+
+.container-inputs label {
+  color: #484848;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.width-limit {
+  width: 100%;
+  max-width: 150rem;
+}

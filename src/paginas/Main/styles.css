@@ -1,51 +1,59 @@
-.container-main{
-    background-color: #EFEFEF;
-    background-image: url('../../assets/background.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-    font-family: 'Rubik', sans-serif;
+.container-main .logo {
+  height: 4rem;
+  position: absolute;
+  left: 5rem;
+  top: 4rem;
+  display: flex;
+  align-items: center;
 }
 
-.content-main{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding: 0 5rem;
- 
+.container-main {
+  background-color: #efefef;
+  background-image: url("../../assets/background.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  font-family: "Rubik", sans-serif;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0 5rem;
 }
 
 .content-main h1 {
-    font-size: 4rem;
-    line-height: 5rem;
-    color: white;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: white;
 }
 
 .content-main span {
-    color: #2C0F69;
+  color: #2c0f69;
 }
 
 .content-main h3 {
-    font-size: 2.2rem;
-    font-weight: normal;
-    margin-top: 1rem;
-    color: white;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin-top: 1rem;
+  color: white;
 }
 
-.buttons-main{
-    display: flex; 
-    justify-content: space-around;
-    padding: 4rem 0;
+.buttons-main {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
 }
 
 .buttons-main button {
-    width: 26rem;
+  width: 26rem;
 }
