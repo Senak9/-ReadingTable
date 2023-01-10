@@ -2,15 +2,16 @@ import { useState } from "react";
 import "./styles.css";
 import Header from "../../componentes/Header";
 import RandomItens from "../../componentes/RandomItens";
+import GroupsItens from "../../componentes/GroupsItens";
 
 function Home() {
   return (
     <div className="container-home">
       <Header />
       <section>
-        <div container-box>
+        <div className="container-box">
           <RandomItens />
-          <div>MDJKDKKM</div>
+          <GroupsItens />
         </div>
         <div>ssss</div>
       </section>
