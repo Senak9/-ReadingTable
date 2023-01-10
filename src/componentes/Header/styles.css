@@ -23,43 +23,37 @@ header {
   cursor: pointer;
 }
 
-.container-sign-out {
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
-}
-
 .profile-area {
   display: flex;
   align-items: center;
   color: white;
   cursor: pointer;
+  padding: 0 1rem;
 }
 
 .profile-area strong {
   font-size: 2rem;
-  padding-left: 0.5rem;
   font-family: "Rubik", sans-serif;
-}
-
-.sign-out {
-  margin-left: 1.6rem;
-  height: 2.4rem;
+  padding-right: 1rem;
 }
 
 .content-header h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: normal;
   color: #2c0f69;
   font-family: "Rubik", sans-serif;
-  margin-right: 1rem;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 .content-header h3 {
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
   color: white;
   font-family: "Rubik", sans-serif;
+  cursor: pointer;
 }
 
 .container-list {
@@ -67,10 +61,4 @@ header {
   width: 65%;
   justify-content: space-around;
   align-items: center;
-}
-
-.category-area {
-  background-color: #d9d9d9;
-  padding: 1rem;
-  border-radius: 1rem;
 }

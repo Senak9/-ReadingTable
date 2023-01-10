@@ -25,21 +25,11 @@ function Header() {
           <h3>WebNovels</h3>
           <h3>Séries</h3>
           <h3>Outros</h3>
-          <div className="category-area">
-            <h2>Categorias</h2>
-          </div>
+          <h2>Categorias</h2>
         </div>
-        <div className="container-sign-out">
-          <div className="profile-area">
-            <img src={Profile} alt="profile" />
-            <strong>Usuario</strong>
-          </div>
-          {/* <img
-            src={Logout}
-            alt="logout"
-            className="sign-out"
-            onClick={handleLogout}
-          /> */}
+        <div className="profile-area">
+          <strong>Usuario</strong>
+          <img src={Profile} alt="profile" />
         </div>
       </div>
     </header>
