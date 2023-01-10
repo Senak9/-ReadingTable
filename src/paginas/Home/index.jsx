@@ -3,6 +3,7 @@ import "./styles.css";
 import Header from "../../componentes/Header";
 import RandomItens from "../../componentes/RandomItens";
 import GroupsItens from "../../componentes/GroupsItens";
+import UpdatedItens from "../../componentes/UpdatedItens";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
           <RandomItens />
           <GroupsItens />
         </div>
-        <div>ssss</div>
+        <UpdatedItens />
       </section>
     </div>
   );
